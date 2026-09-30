@@ -2,7 +2,7 @@
 
 Résultats avec les hypothèses de départ (voir `hypotheses.md`). À recalculer dans le simulateur si elles changent.
 
-| Scénario | Gain net / an | ROI 3 ans | Retour | Valeur | Faisab. | Risque | Global | Décision |
+| Scenarii | Gain net / an | ROI 3 ans | Retour | Valeur | Faisab. | Risque | Global | Décision |
 |---|---|---|---|---|---|---|---|---|
 | A Support | 34 470 € | 193 % | 6,1 mois | 96 | 73 | 60 | 73 | **Tester** |
 | B Factures | 58 660 € | 131 % | 8,6 mois | 66 | 60 | 80 | 50 | **Creuser** |
