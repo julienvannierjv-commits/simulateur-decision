@@ -1,0 +1,19 @@
+{
+  "globaux": { "semaines_par_an": 46, "horizon_ans": 3, "roi_cible_pct": 200,
+    "poids": { "valeur": 40, "faisabilite": 30, "risque": 30 },
+    "seuils": { "stopper_sous": 40, "tester_des": 65, "faisabilite_min": 55, "risque_max": 60, "retour_max_mois": 36 } },
+  "scenarios": [
+    { "id": "A", "nom": "Assistant de réponse au support", "usage": "Brouillons de réponses aux tickets clients",
+      "utilisateurs": 12, "frequence_sem": 60, "minutes_gagnees": 2.5, "taux_horaire": 45, "adoption_pct": 70,
+      "jours_mise_en_oeuvre": 25, "tjm": 700, "licence_an": 6000, "run_an": 3000,
+      "donnees": 3, "technique": 4, "sponsor": 4, "sensibilite": 3, "incertitude": 3, "dependance": 3 },
+    { "id": "B", "nom": "Extraction automatique de factures", "usage": "Saisie comptable des factures fournisseurs",
+      "utilisateurs": 4, "frequence_sem": 150, "minutes_gagnees": 5, "taux_horaire": 38, "adoption_pct": 90,
+      "jours_mise_en_oeuvre": 60, "tjm": 700, "licence_an": 14000, "run_an": 6000,
+      "donnees": 2, "technique": 3, "sponsor": 4, "sensibilite": 4, "incertitude": 4, "dependance": 4 },
+    { "id": "C", "nom": "Synthèse de veille pour la direction", "usage": "Note hebdomadaire de veille concurrentielle",
+      "utilisateurs": 3, "frequence_sem": 5, "minutes_gagnees": 45, "taux_horaire": 70, "adoption_pct": 50,
+      "jours_mise_en_oeuvre": 15, "tjm": 700, "licence_an": 3000, "run_an": 1000,
+      "donnees": 4, "technique": 5, "sponsor": 2, "sensibilite": 2, "incertitude": 5, "dependance": 2 }
+  ]
+}
